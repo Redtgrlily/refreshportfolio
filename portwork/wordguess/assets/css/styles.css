@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    padding-top: 20px;
+    font-family: Courier New, Courier, monospace, bolder;
+    color: purple;
+}
+.container { 
+    text-align: center;
+    overflow: hidden;
+}
+.sliding-background {
+    height: 500px;
+    width: 5076px;
+    background-image: url("../../assets/images/background.jpg") repeat-x;
+}
+#currentWord {
+    letter-spacing: 10px;
+}
+#pressKeyTryAgain, #gameover-image, #youwin-image {
+     display: none;
+    }
+.gameplay-column {
+    padding-top: 20px;
+    border: 3px dashed #fff;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, .3);
+}

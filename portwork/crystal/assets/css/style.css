@@ -1,0 +1,19 @@
+body {
+    background-color: darkblue;
+    background-image: url("../images/containerbkgrnd.jpg");
+}
+.container {
+    background-color: lightgray;
+    margin-right: 30%;
+    margin-left: 30%;
+    border: solid 5px black;
+    width: 600px;
+    height: 600px;
+    background-image: url("../images/treasurebkgrnd.jpg");
+}
+.title {
+    background-color: white;
+    color: darkblue;
+    border: 4px lightcoral solid;
+    text-align: center;
+}

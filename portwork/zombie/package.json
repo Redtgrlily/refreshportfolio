@@ -1,0 +1,14 @@
+{
+  "name": "zombierpg",
+  "version": "1.0.0",
+  "description": "## Files",
+  "main": "zombiegame.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kaitlyn",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.2.1"
+  }
+}
