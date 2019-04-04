@@ -1,0 +1,98 @@
+/* ========================== Responsive ============================== */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px){
+	/* Header & Navigation */
+	.box-header{ margin-top: 50vh; }
+	.box-header h1{	font-size: 28px; }
+	.box-header h2{	font-size: 28px; margin-top: 10px;}
+
+	.nav-menu ul{margin-top: 20vh;padding-left: 0px;}
+	.nav-menu li{width: 100%;float: left;text-align: center;}
+
+	/* About */
+	.page-about-title h1{ font-size: 38px; width: 100%;}
+	.box-profile h1,h2{text-align: center;}	
+	.profile-data{text-align: left;}
+	.profile-data a{display: inline-block;}
+	.box-skill h1{text-align: center;margin-top: 30px;margin-bottom: 30px;}
+	.hireMe{text-align: center;}
+	.hireBtn{text-align: center;}
+
+	/* Counter */
+	.box-counter{margin-bottom: 30px;}
+
+	/* Services */
+	.page-services-title h1{font-size: 38px;width: 100%;}	
+
+	/* Portfolio */
+	.page-portfolio-title h1{font-size: 38px; width: 100%;}	
+
+	/* Contact */
+	.page-contact-title h1{font-size: 38px; width: 100%;}
+	.formContact{margin-top: 50px;}	
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+	/* Header & Navigation */
+	.box-header{ margin-top: 65%; }
+	.box-header h1{	font-size: 30px; }
+	.box-header h2{	font-size: 30px; margin-top: 10px;}
+	.nav-menu ul{margin-top: 20vh;padding-left: 0px;}
+	.nav-menu li{width: 100%;float: left;text-align: center;}
+
+	/* About */
+	.page-about-title h1{ font-size: 40px; width: 100%;}
+	.box-profile h1,h2{text-align: center;}	
+	.box-skill h1{text-align: center;margin-top: 30px;margin-bottom: 30px;}
+	.hireMe{text-align: center;}
+	.hireBtn{text-align: center;}
+
+	/* Counter */	
+	.box-counter i{font-size: 30px;}
+	.page-counter h2{font-size: 18px;}
+	.page-counter span{font-size: 34px;}
+	/* Services */
+	.page-services-title h1{font-size: 40px;width: 100%;}	
+
+	/* Portfolio */
+	.page-portfolio-title h1{font-size: 40px; width: 100%;}	
+
+	/* Contact */
+	.page-contact-title h1{font-size: 40px; width: 100%;}
+	.formContact{margin-top: 50px;}	
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* Header & Navigation */
+	.box-header{ margin-top: 40%; }	
+	.box-header h2{	margin-top: 10px;}
+	.nav-menu ul{margin-top: 20vh;padding-left: 0px;}
+	.nav-menu li{width: 100%;float: left;text-align: center;}
+
+	/* About */
+	.page-about-title h1{ width: 100%;}
+	.box-profile h1,h2{text-align: center;}	
+	.box-skill h1{text-align: center;margin-top: 30px;margin-bottom: 30px;}
+	.hireMe h1{font-size: 65px;padding-top: 10px;}
+	.hireBtn{}
+
+	/* Services */
+	.page-services-title h1{width: 100%;}	
+
+	/* Portfolio */
+	.page-portfolio-title h1{width: 100%;}	
+
+	/* Contact */
+	.page-contact-title h1{width: 100%;}
+	.formContact{margin-top: 50px;}			
+}
+
+/* Large devices (desktops, 992px and up) 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+*/
